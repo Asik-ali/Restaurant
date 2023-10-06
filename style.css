@@ -1,0 +1,247 @@
+
+body {
+    overflow-x: hidden;
+}
+.color {
+    color: #db9423 !important;
+    font-weight: bolder !important;
+    font-size: 24px;
+}
+.navbar{
+    border-bottom: 5px solid #db9423;
+}
+.hov{
+    color: #db9423 !important;
+    font-weight: bolder !important;
+    font-size: 16px !important;
+    padding: 26px !important;
+    padding-bottom: 26px !important;
+}
+
+.hov:hover{
+    background-color: #db9423 !important;
+    color: black !important;
+}
+.pcolor {
+    color: #645659;
+}
+
+.border2 {
+    border: 1px solid #645659;
+}
+
+.f {
+
+    background-color: black;
+}
+
+.icon {
+    background-color: black;
+    color: #db9423 !important;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.bgkhaki {
+    background-color: #f2f2f2;
+}
+
+.bgbc {
+    background-color: #bc9b5d;
+}
+
+.colwhite {
+    color: black;
+}
+
+.white {
+    color: white;
+    font-size: 16px;
+}
+
+.outline {
+    outline: none;
+}
+
+.opa {
+    background-color: rgba(256, 256, 256, .7);
+    outline: none;
+}
+
+.menu{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+background-color: black;
+color: #db9423 !important;
+display: flex;
+align-items: end;
+justify-content: end;
+margin-right: 20px !important;
+z-index: 99999;
+}
+.menubar{
+position: absolute;
+background: #000;
+top: -100%;
+z-index:999;
+transition: all 0.6s;
+width: 90%;
+}
+
+.reservation {
+    margin-top: 20px;
+    background-image: url(./img/reservations-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 350px;
+    position: relative;
+}
+
+.index {
+    z-index: 1;
+}
+
+.w {
+    width: 130px;
+}
+
+.wtime {
+    width: 150px;
+}
+
+/* .slide {
+    width: 80vh;
+} */
+.v{
+margin-left: 12px;
+}
+.slide img {
+    width: 60vh;
+}
+.navigation {
+    position: absolute; 
+      top: 102%;
+      left: 8%;
+   
+   }
+   .imgslider{
+    margin: 0;
+   }
+   .imgslider input{
+    display: none;
+   }
+   .slidetext{
+    background-color: #f2f2f2;
+    padding: 10px;
+   }
+   .navigation-btn {
+       background-color: black;
+       border-radius: 30px;
+       cursor: pointer;
+       transition: 1s;
+   }
+   .navigation-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.navigation-btn:hover {
+    background: #de6a23;
+}
+
+#radio1:checked~.first {
+    margin-left: -180px;
+}
+
+#radio2:checked~.first {
+    margin-left: -34.5%;
+}
+
+#radio3:checked~.first {
+    margin-left: -68.9%;
+}
+.overlay {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.menuimg {
+    height: 370px;
+    background-color: #f2f2f2;
+}
+
+.menuimg img {
+    height: 150px;
+    width: 100%;
+}
+
+.menuimg h1 {
+    font-size: 18px;
+    margin-top: 20px !important;
+}
+
+
+.input {
+    outline: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    padding: 7px;
+    font-size: 16px;
+    height: 100%;
+    border-right: 2px solid gray !important;
+}
+
+.chefimg {
+    background-color: #f2f2f2;
+    height: auto;
+}
+
+.chefimg h2 {
+    margin-top: 20px;
+}
+
+.chefimg p {
+    margin-top: 20px !important;
+}
+
+.newsletter {
+    width: 40%;
+    border-radius: 20px;
+}
+
+.newsletter input {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+img{
+    object-fit: cover !important;
+}
+
+.newsletter button {
+    position: relative;
+    right: 35px;
+    width: 150px;
+    background: black;
+    text-align: center;
+    color: #db9423;
+}
+
+.back{
+    position: sticky;
+    top: 530px;
+display: flex;
+align-items: end;
+justify-content: end;
+margin-right: 10px;
+z-index: 99;
+
+
+}
