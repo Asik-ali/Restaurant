@@ -11,7 +11,7 @@ body {
     border-bottom: 5px solid #db9423;
 }
 .slide{
-    height: 1000px;
+    height: 1000px !important;
     width: 100%;
 }
 .hov{
