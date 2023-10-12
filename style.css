@@ -10,6 +10,9 @@ body {
 .navbar{
     border-bottom: 5px solid #db9423;
 }
+.slide{
+    height: 800px !important;
+}
 .hov{
     color: #db9423 !important;
     font-weight: bolder !important;
